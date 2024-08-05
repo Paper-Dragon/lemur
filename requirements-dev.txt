@@ -52,7 +52,7 @@ aws-xray-sdk==2.13.0
     #   moto
 backports-tarfile==1.0.0
     # via jaraco-context
-bandit==1.7.8
+bandit==1.7.9
     # via -r requirements-tests.txt
 bcrypt==4.1.2
     # via
@@ -71,12 +71,12 @@ blinker==1.7.0
     #   flask
     #   flask-mail
     #   flask-principal
-boto3==1.34.122
+boto3==1.34.140
     # via
     #   -r requirements-tests.txt
     #   aws-sam-translator
     #   moto
-botocore==1.34.122
+botocore==1.34.144
     # via
     #   -r requirements-tests.txt
     #   aws-xray-sdk
@@ -91,7 +91,7 @@ celery[redis]==5.3.6
     # via -r requirements-tests.txt
 certbot==2.11.0
     # via -r requirements-tests.txt
-certifi==2024.6.2
+certifi==2024.7.4
     # via
     #   -r requirements-tests.txt
     #   requests
@@ -144,7 +144,7 @@ configobj==5.0.8
     # via
     #   -r requirements-tests.txt
     #   certbot
-coverage==7.4.4
+coverage==7.6.0
     # via -r requirements-tests.txt
 cryptography==42.0.8
     # via
@@ -199,11 +199,11 @@ exceptiongroup==1.2.0
     #   pytest
 factory-boy==3.3.0
     # via -r requirements-tests.txt
-faker==25.4.0
+faker==26.0.0
     # via
     #   -r requirements-tests.txt
     #   factory-boy
-fakeredis==2.23.2
+fakeredis==2.23.3
     # via -r requirements-tests.txt
 filelock==3.13.3
     # via virtualenv
@@ -225,7 +225,7 @@ flask-bcrypt==1.0.1
     # via -r requirements-tests.txt
 flask-cors==4.0.1
     # via -r requirements-tests.txt
-flask-limiter==3.7.0
+flask-limiter==3.8.0
     # via -r requirements-tests.txt
 flask-mail==0.10.0
     # via -r requirements-tests.txt
@@ -283,7 +283,7 @@ grpcio-status==1.62.1
     #   google-api-core
 gunicorn==22.0.0
     # via -r requirements-tests.txt
-hvac==2.2.0
+hvac==2.3.0
     # via -r requirements-tests.txt
 identify==2.5.35
     # via pre-commit
@@ -397,7 +397,7 @@ lazy-object-proxy==1.10.0
     # via
     #   -r requirements-tests.txt
     #   openapi-spec-validator
-limits==3.10.1
+limits==3.13.0
     # via
     #   -r requirements-tests.txt
     #   flask-limiter
@@ -445,7 +445,7 @@ multipart==0.2.4
     # via
     #   -r requirements-tests.txt
     #   moto
-mypy==1.10.0
+mypy==1.10.1
     # via -r requirements-tests.txt
 mypy-extensions==1.0.0
     # via
@@ -460,7 +460,7 @@ networkx==3.2.1
     #   cfn-lint
 nh3==0.2.17
     # via readme-renderer
-nodeenv==1.8.0
+nodeenv==1.9.1
     # via
     #   -r requirements-dev.in
     #   pre-commit
@@ -515,7 +515,7 @@ platformdirs==4.2.0
     #   -r requirements-tests.txt
     #   black
     #   virtualenv
-pluggy==1.4.0
+pluggy==1.5.0
     # via
     #   -r requirements-tests.txt
     #   pytest
@@ -614,7 +614,7 @@ pyspnego==0.10.2
     # via
     #   -r requirements-tests.txt
     #   requests-ntlm
-pytest==8.1.1
+pytest==8.3.1
     # via
     #   -r requirements-tests.txt
     #   pytest-flask
@@ -661,7 +661,7 @@ pyyaml==6.0.1
     #   responses
 readme-renderer==43.0
     # via twine
-redis==5.0.6
+redis==5.0.7
     # via
     #   -r requirements-tests.txt
     #   celery
@@ -676,7 +676,7 @@ regex==2023.12.25
     # via
     #   -r requirements-tests.txt
     #   cfn-lint
-requests==2.32.0
+requests==2.32.3
     # via
     #   -r requirements-tests.txt
     #   acme
@@ -738,7 +738,7 @@ sarif-om==1.0.4
     #   cfn-lint
 secretstorage==3.3.3
     # via keyring
-sentry-sdk==2.5.1
+sentry-sdk==2.11.0
     # via -r requirements-tests.txt
 six==1.16.0
     # via
@@ -783,7 +783,7 @@ tomli==2.0.1
     #   black
     #   mypy
     #   pytest
-twine==5.1.0
+twine==5.1.1
     # via -r requirements-dev.in
 twofish==0.3.0
     # via
@@ -797,9 +797,9 @@ types-deprecated==1.2.9.20240311
     # via -r requirements-tests.txt
 types-paramiko==3.4.0.20240423
     # via -r requirements-tests.txt
-types-protobuf==5.26.0.20240422
+types-protobuf==5.27.0.20240626
     # via -r requirements-tests.txt
-types-pyopenssl==24.1.0.20240425
+types-pyopenssl==24.1.0.20240722
     # via
     #   -r requirements-tests.txt
     #   types-redis
@@ -815,11 +815,11 @@ types-redis==4.6.0.20240425
     # via -r requirements-tests.txt
 types-requests==2.31.0.6
     # via -r requirements-tests.txt
-types-setuptools==69.5.0.20240519
+types-setuptools==70.3.0.20240710
     # via
     #   -r requirements-tests.txt
     #   types-cffi
-types-six==1.16.21.20240425
+types-six==1.16.21.20240513
     # via -r requirements-tests.txt
 types-tabulate==0.9.0.20240106
     # via -r requirements-tests.txt
@@ -853,7 +853,7 @@ urllib3==1.26.18
     #   responses
     #   sentry-sdk
     #   twine
-validators==0.28.3
+validators==0.33.0
     # via -r requirements-tests.txt
 vine==5.1.0
     # via
@@ -882,7 +882,7 @@ xmltodict==0.13.0
     # via
     #   -r requirements-tests.txt
     #   moto
-zipp==3.18.1
+zipp==3.19.1
     # via
     #   -r requirements-tests.txt
     #   importlib-metadata
